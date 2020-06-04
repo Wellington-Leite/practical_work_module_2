@@ -1,0 +1,33 @@
+{
+  "name": "practical_work_1",
+  "version": "1.0.0",
+  "description": "O trabalho consiste em receber um arquivo JSON (cidades/estados) em seguida separá-lo em novos arquivos",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wellington-Leite/practical_work_module_2.git"
+  },
+  "keywords": [
+    "NODE",
+    "EXPRESS"
+  ],
+  "author": "Wellington Leite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wellington-Leite/practical_work_module_2/issues"
+  },
+  "homepage": "https://github.com/Wellington-Leite/practical_work_module_2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "file-system": "^2.2.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*.log",
+      "*.json"
+    ]
+  }
+}
